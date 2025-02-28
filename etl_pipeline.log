@@ -1,0 +1,40 @@
+2025-02-28 14:53:41,887 - INFO - Starting ETL pipeline
+2025-02-28 14:53:41,888 - ERROR - File not found: C:\Users\tr302137\Desktop\Project_Folder\python\raw\MOCK_DATA.csv
+2025-02-28 14:53:41,889 - WARNING - Input DataFrame is None. Skipping transformation.
+2025-02-28 14:53:41,889 - WARNING - No data to save.
+2025-02-28 14:53:41,889 - INFO - ETL pipeline successfully completed
+2025-02-28 14:58:27,070 - INFO - Starting ETL pipeline
+2025-02-28 14:58:27,070 - ERROR - File not found: C:\Users\tr302137\Desktop\Project_Folder\etl_pipeline\data\raw\MOCK_DATA.csv
+2025-02-28 14:58:27,071 - WARNING - Input DataFrame is None. Skipping transformation.
+2025-02-28 14:58:27,071 - WARNING - No data to save.
+2025-02-28 14:58:27,072 - INFO - ETL pipeline successfully completed
+2025-02-28 15:01:51,250 - INFO - Starting ETL pipeline
+2025-02-28 15:01:51,251 - INFO - Starting data extraction from file: C:\Users\tr302137\Desktop\Pasta_de_projeto\etl_pipeline\data\raw\MOCK_DATA.csv
+2025-02-28 15:01:51,265 - INFO - Data successfully extracted. Total records: 1000
+2025-02-28 15:01:51,265 - INFO - Starting data transformation
+2025-02-28 15:01:51,276 - INFO - Initial records: 1000
+2025-02-28 15:01:51,276 - INFO - Records removed (null values): 0
+2025-02-28 15:01:51,277 - INFO - Records removed (duplicates): 0
+2025-02-28 15:01:51,277 - INFO - Final records: 1000
+2025-02-28 15:01:51,285 - INFO - File successfully saved at: C:\Users\tr302137\Desktop\Pasta_de_projeto\etl_pipeline\data\processed_20250228_150151
+2025-02-28 15:01:51,286 - INFO - ETL pipeline successfully completed
+2025-02-28 15:03:02,594 - INFO - Starting ETL pipeline
+2025-02-28 15:03:02,594 - INFO - Starting data extraction from file: C:\Users\tr302137\Desktop\Pasta_de_projeto\etl_pipeline\data\raw\MOCK_DATA.csv
+2025-02-28 15:03:02,603 - INFO - Data successfully extracted. Total records: 1000
+2025-02-28 15:03:02,603 - INFO - Starting data transformation
+2025-02-28 15:03:02,606 - INFO - Initial records: 1000
+2025-02-28 15:03:02,606 - INFO - Records removed (null values): 0
+2025-02-28 15:03:02,606 - INFO - Records removed (duplicates): 0
+2025-02-28 15:03:02,606 - INFO - Final records: 1000
+2025-02-28 15:03:02,611 - INFO - File successfully saved at: C:\Users\tr302137\Desktop\Pasta_de_projeto\etl_pipeline\data\processed_20250228_150302
+2025-02-28 15:03:02,611 - INFO - ETL pipeline successfully completed
+2025-02-28 15:03:45,535 - INFO - Starting ETL pipeline
+2025-02-28 15:03:45,537 - INFO - Starting data extraction from file: C:\Users\tr302137\Desktop\Pasta_de_projeto\etl_pipeline\data\raw\MOCK_DATA.csv
+2025-02-28 15:03:45,539 - INFO - Data successfully extracted. Total records: 1000
+2025-02-28 15:03:45,539 - INFO - Starting data transformation
+2025-02-28 15:03:45,539 - INFO - Initial records: 1000
+2025-02-28 15:03:45,539 - INFO - Records removed (null values): 0
+2025-02-28 15:03:45,539 - INFO - Records removed (duplicates): 0
+2025-02-28 15:03:45,539 - INFO - Final records: 1000
+2025-02-28 15:03:45,550 - INFO - File successfully saved at: C:\Users\tr302137\Desktop\Pasta_de_projeto\etl_pipeline\data\processed\Processed_20250228_150345.csv
+2025-02-28 15:03:45,551 - INFO - ETL pipeline successfully completed
