@@ -1,26 +1,27 @@
-#🚀 ETL Pipeline with Python and Pandas
-This project is a simple yet effective ETL (Extract, Transform, Load) pipeline built with Python and Pandas. It extracts data from a CSV file, processes it (removing null values and duplicates), and saves the transformed data to a new CSV file—all while logging key operations for easy debugging. 🛠️
+# 🚀 ETL Pipeline with Python and Pandas  
 
-📌 Features
-✅ Extraction: Reads data from a CSV file into a Pandas DataFrame.
-✅ Transformation: Cleans data by removing null values and duplicates.
-✅ Loading: Saves the processed data into a new CSV file with a timestamp.
-✅ Logging: Provides detailed logs for tracking the ETL process and debugging errors.
+This project is a simple yet effective ETL (Extract, Transform, Load) pipeline built with Python and Pandas.  
+It extracts data from a CSV file, processes it (removing null values and duplicates), and saves the transformed data to a new CSV file—all while logging key operations for easy debugging. 🛠️  
 
-📂 Project Structure
+## 📌 Features  
+
+✅ **Extraction:** Reads data from a CSV file into a Pandas DataFrame.  
+✅ **Transformation:** Cleans data by removing null values and duplicates.  
+✅ **Loading:** Saves the processed data into a new CSV file with a timestamp.  
+✅ **Logging:** Provides detailed logs for tracking the ETL process and debugging errors.  
+
+## 📂 Project Structure  
+
+📦 etl-pipeline ┣ 📜 etl_pipeline.py # Main ETL script ┣ 📜 etl_pipeline.log # Log file (generated automatically) ┣ 📜 MOCK_DATA.csv # Sample input data ┗ 📜 README.md # Documentation
+
 bash
 Copiar
 Editar
-📦 etl-pipeline
- ┣ 📜 etl_pipeline.py  # Main ETL script
- ┣ 📜 etl_pipeline.log  # Log file (generated automatically)
- ┣ 📜 MOCK_DATA.csv  # Sample input data
- ┗ 📜 README.md  # Documentation
-🛠 Setup and Usage
-1️⃣ Clone the Repository
-bash
-Copiar
-Editar
+
+## 🛠 Setup and Usage  
+
+### 1️⃣ Clone the Repository  
+```bash
 git clone https://github.com/your-username/etl-pipeline.git
 cd etl-pipeline
 2️⃣ Install Dependencies
@@ -44,7 +45,8 @@ Copiar
 Editar
 python etl_pipeline.py
 🔍 Logging Configuration
-This script uses advanced logging with rotating file handlers to manage log files efficiently. The log file (etl_pipeline.log) will:
+This script uses advanced logging with rotating file handlers to manage log files efficiently.
+The log file (etl_pipeline.log) will:
 
 Rotate when it reaches 5MB (keeping up to 3 backups).
 Log messages to both the file and the console.
@@ -66,4 +68,5 @@ logging.basicConfig(
 🚀 Support for additional file formats (JSON, Excel).
 🚀 Implement automated unit tests for data validation.
 🚀 Build a web-based UI for an easier ETL execution.
+
 
